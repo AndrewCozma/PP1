@@ -80,16 +80,17 @@ h1, h2 {
     text-align: center;
 }
 
-p {
+footer > p {
     color:#fd6b1c;
+    text-align: right;
 }
 
 
 .map {
     padding-top: 100px;
-    padding-bottom: 2px;
+    padding-bottom: 50px;
     height: 300px;
-    margin-bottom: 300px;
+    margin-bottom: 20px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -99,6 +100,7 @@ p {
 footer {
     background-color: #0A2B38;
     text-align: center;
+    padding-top: 10px;
 }
 
 .social-networks {
@@ -109,7 +111,7 @@ footer {
 }
 
 .social-networks i {
-    font-size: 150%;
+    font-size: 200%;
     margin: 1%;
     padding: 1%;
 }
@@ -128,7 +130,7 @@ footer {
 
 #section2 {
     height: 200px;
-    padding-top: 150px;
+    padding-top: 100px;
 }
 
 #osc1 {
