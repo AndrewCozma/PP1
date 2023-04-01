@@ -2,7 +2,7 @@
 
 body {font-family: 'Merriweather Sans', sans-serif;
       font-weight: 300;
-      color: #9D6E62;
+      color: #0A2B38;
       margin: 0;
       padding: 0;
       border: none;
@@ -12,12 +12,12 @@ body {font-family: 'Merriweather Sans', sans-serif;
 h1, h2 {
     font-family: 'Merriweather Sans', sans-serif;
     text-transform: uppercase;
-    letter-spacing: 4px;
-    color: #6E629D;
+    letter-spacing: 3px;
+    color: #FD6B1C;
 }
 #logo {
       float: left;
-      font-size: 300%;
+      font-size: 250%;
       margin-left: 30px; 
 }
 
@@ -42,11 +42,11 @@ h1, h2 {
 }
 
 #menu a:hover {
-    border-bottom: 1px solid #9D6E62;
+    border-bottom: 1px solid #FD6B1C;
 }
 
 .selected {
-    border-bottom: 1px solid #9D6E62;
+    border-bottom: 1px solid #FD6B1C;
 }
 
 /*section 1 */
@@ -73,10 +73,10 @@ h1, h2 {
     to{transform: scale(1.1);}
 }
 
-.text {color:#9D6E62;}
+.text {color:#0A2B38;}
 
 .background {
-    background-color: #629D6E;
+    background-color: #3886A4;
 }
 
 .text-center {
