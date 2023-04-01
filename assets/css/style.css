@@ -56,12 +56,6 @@ h3 {
 
 /*section 1 */
 
-#main-outer {
-    height: 300px;
-    width: 100%;
-    overflow:hidden;
-    position: relative;
-}
 
 #main-image {
     height: 300px;
