@@ -6,7 +6,7 @@
 }
 body {font-family: 'Josefin Sans', sans-serif;
       font-weight: 300;
-      color: #3a3a3a;
+      color: #6E629D;
 }
 
 /* title and menu */
@@ -14,7 +14,7 @@ h1, h2 {
     font-family: 'Josefin Sans', sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-    color: #252525;
+    color: #9D6E62;
 }
 #logo {
       float: left;
@@ -43,11 +43,11 @@ h1, h2 {
 }
 
 #menu a:hover {
-    border-bottom: 1px solid #1f1f1f;
+    border-bottom: 1px solid #6E629D;
 }
 
 .selected {
-    border-bottom: 1px solid #1f1f1f;
+    border-bottom: 1px solid #6E629D;
 }
 
 /*section 1 */
@@ -73,3 +73,8 @@ h1, h2 {
     from{transform: scale(1);}
     to{transform: scale(1.1);}
 }
+
+.text {color: #orange;}
+
+.background {
+    background-color: #629D6E;}
