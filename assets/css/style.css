@@ -1,0 +1,7 @@
+#main-image {
+    height: 400px;
+    width: 100%;
+    background: url('../images/Main_IMG_7411.jpg') no-repeat center;
+    object-fit: contain;
+    
+}
