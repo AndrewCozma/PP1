@@ -73,7 +73,8 @@ h1, h2 {
     to{transform: scale(1.1);}
 }
 
-.text {color:#0A2B38;}
+.text {color:#0A2B38;
+}
 
 .text-center {
     text-align: center;
@@ -83,9 +84,17 @@ p {
     color:#fd6b1c;
 }
 
-#map-wrapper {
+
+.map {
+    padding-top: 100px;
+    padding-bottom: 2px;
     height: 300px;
-    margin-bottom: 300px;}
+    margin-bottom: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    overflow:hidden;}
 
 footer {
     background-color: #0A2B38;
@@ -118,7 +127,8 @@ footer {
 /* section 2 */
 
 #section2 {
-    height: 400px;
+    height: 200px;
+    padding-top: 150px;
 }
 
 #osc1 {
@@ -142,17 +152,10 @@ footer {
     margin: 0 auto;}
 
 
-/* section 3 */
-
-#map {
-        height: 300px;
-        width: 100%;
-        border: none;
-    }
-
 /* gallery */
 
 #photos {
+    padding-top: 100px;
     clear:both;
     line-height: 0;
     column-count: 4;
