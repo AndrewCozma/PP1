@@ -229,12 +229,10 @@ footer {
     } 
     .osc1, .osc2 {
         width: inherit;
+        text-align: center;
+        padding: 0 10px;
     }
 
-    }
-    .osc1 .osc2 {
-        text-align: center;
-        padding: 0 20px;
     }
     #photos {
         column-count: 3;
@@ -242,6 +240,7 @@ footer {
 }
 
 @media screen and (max-width: 800px) {
+
     #photos {
         column-count: 2;
     }
