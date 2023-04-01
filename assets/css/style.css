@@ -6,7 +6,7 @@
 }
 body {font-family: 'Josefin Sans', sans-serif;
       font-weight: 300;
-      color: #6E629D;
+      color: #9D6E62;
 }
 
 /* title and menu */
@@ -14,7 +14,7 @@ h1, h2 {
     font-family: 'Josefin Sans', sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-    color: #9D6E62;
+    color: #6E629D;
 }
 #logo {
       float: left;
@@ -43,11 +43,11 @@ h1, h2 {
 }
 
 #menu a:hover {
-    border-bottom: 1px solid #6E629D;
+    border-bottom: 1px solid #9D6E62;
 }
 
 .selected {
-    border-bottom: 1px solid #6E629D;
+    border-bottom: 1px solid #9D6E62;
 }
 
 /*section 1 */
@@ -74,7 +74,7 @@ h1, h2 {
     to{transform: scale(1.1);}
 }
 
-.text {color:#6E629D;}
+.text {color:#9D6E62;}
 
 .background {
     background-color: #629D6E;}
