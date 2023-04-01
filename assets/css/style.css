@@ -15,6 +15,13 @@ h1, h2 {
     letter-spacing: 3px;
     color: #FD6B1C;
 }
+
+h3 {    
+    font-family: 'Merriweather Sans', sans-serif;
+    text-transform:none;
+    color: #FD6B1C;
+    text-align:justify;
+}
 #logo {
       float: left;
       font-size: 250%;
@@ -138,7 +145,6 @@ footer {
         height: 300px;
         width: 25%;
         float: left;
-        
 }
 #osc2 {
     background: url('../images/IMG_8897\ 400400.jpg') no-repeat center center;
