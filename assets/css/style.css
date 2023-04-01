@@ -83,10 +83,49 @@ p {
     color:#fd6b1c;
 }
 
+#map-wrapper {
+    height: 300px;
+    margin-bottom: 300px;}
+
 footer {
     background-color: #0A2B38;
+    text-align: right;
 }
 
-header {
+.page-header {
     background-color: #3886A4;
+    height: auto;
+    background: center 75% / cover no-repeat;
+    height: 150px;
+    width: 100%;
+    overflow:hidden;
+    position: relative;
 }
+
+#osc1 {
+        background: url('../images/IMG_0343\ 400400.jpg') no-repeat center center;
+        height: 300px;
+        width: 25%;
+        float: left;
+        
+}
+#osc2 {
+    background: url('../images/IMG_8897\ 400400.jpg') no-repeat center center;
+    width: 25%;
+    height: 300px;
+    float: right;
+}
+
+#center-about {
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;}
+
+
+    /* section 3 */
+
+    #map {
+        height: 300px;
+        width: 100%;
+        border: none;
+    }
