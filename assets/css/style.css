@@ -115,6 +115,12 @@ footer {
     position: relative;
 }
 
+/* section 2 */
+
+#section2 {
+    height: 300px;
+}
+
 #osc1 {
         background: url('../images/IMG_0343\ 400400.jpg') no-repeat center center;
         height: 300px;
@@ -127,10 +133,11 @@ footer {
     width: 25%;
     height: 300px;
     float: right;
+    
 }
 
 #center-about {
-    width: 300px;
+    width: 25%;
     height: 300px;
     margin: 0 auto;}
 
