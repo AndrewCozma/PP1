@@ -11,8 +11,6 @@ body {font-family: 'Merriweather Sans', sans-serif;
 /* title and menu */
 h1, h2 {
     font-family: 'Merriweather Sans', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 3px;
     color: #FD6B1C;
 }
 
@@ -154,8 +152,8 @@ footer {
     
 }
 
-#center-about {
-    width: 25%;
+#center-text {
+    width: 40%;
     height: 300px;
     margin: 0 auto;}
 
