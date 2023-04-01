@@ -4,14 +4,14 @@
     padding: 0;
     border: none;
 }
-body {font-family: 'Josefin Sans', sans-serif;
+body {font-family: 'Merriweather Sans', sans-serif;
       font-weight: 300;
       color: #9D6E62;
 }
 
 /* title and menu */
 h1, h2 {
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Merriweather Sans', sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
     color: #6E629D;
@@ -77,4 +77,5 @@ h1, h2 {
 .text {color:#9D6E62;}
 
 .background {
-    background-color: #629D6E;}
+    background-color: #629D6E;
+}
