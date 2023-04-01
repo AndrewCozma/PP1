@@ -185,3 +185,64 @@ footer {
 #photos > img {
     width: 100%;
 }
+
+/* Media queries */
+
+@media screen and (max-width: 1200px) {
+    #section2 {
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+    #center-text {
+        padding: 30px 0;
+        margin: 0;
+    }
+    #osc1, #osc2 {
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+    #center-text {
+        clear: both;
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+    #cover-image {
+        left: 0;
+    }
+    #section2 {
+        width: 90%;
+        height: 1200px;
+        margin: 0 auto;
+    } 
+    .osc1, .osc2 {
+        width: inherit;
+    }
+
+    }
+    .osc1 .osc2 {
+        text-align: center;
+        padding: 0 20px;
+    }
+    #photos {
+        column-count: 3;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #photos {
+        column-count: 2;
+    }
+}
