@@ -89,7 +89,20 @@ p {
 
 footer {
     background-color: #0A2B38;
-    text-align: right;
+    text-align: center;
+}
+
+.social-networks {
+    text-align: center;}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 150%;
+    margin: 1%;
+    padding: 1%;
 }
 
 .page-header {
