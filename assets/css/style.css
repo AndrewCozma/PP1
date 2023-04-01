@@ -118,7 +118,7 @@ footer {
 /* section 2 */
 
 #section2 {
-    height: 300px;
+    height: 400px;
 }
 
 #osc1 {
@@ -142,10 +142,23 @@ footer {
     margin: 0 auto;}
 
 
-    /* section 3 */
+/* section 3 */
 
-    #map {
+#map {
         height: 300px;
         width: 100%;
         border: none;
     }
+
+/* gallery */
+
+#photos {
+    clear:both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0;
+}
+
+#photos > img {
+    width: 100%;
+}
