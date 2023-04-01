@@ -52,7 +52,7 @@ h1, h2 {
 /*section 1 */
 
 #main-outer {
-    height: 600px;
+    height: 300px;
     width: 100%;
     overflow:hidden;
     position: relative;
@@ -75,10 +75,18 @@ h1, h2 {
 
 .text {color:#0A2B38;}
 
-.background {
-    background-color: #3886A4;
-}
-
 .text-center {
     text-align: center;
+}
+
+p {
+    color:#fd6b1c;
+}
+
+footer {
+    background-color: #0A2B38;
+}
+
+header {
+    background-color: #3886A4;
 }
