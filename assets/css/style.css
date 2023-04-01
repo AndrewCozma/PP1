@@ -1,12 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap');
-* {
-    margin: 0;
-    padding: 0;
-    border: none;
-}
+
 body {font-family: 'Merriweather Sans', sans-serif;
       font-weight: 300;
       color: #9D6E62;
+      margin: 0;
+      padding: 0;
+      border: none;
 }
 
 /* title and menu */
@@ -78,4 +77,8 @@ h1, h2 {
 
 .background {
     background-color: #629D6E;
+}
+
+.text-center {
+    text-align: center;
 }
