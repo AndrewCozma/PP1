@@ -54,6 +54,6 @@ Pieces of code have been taken from the "Love Running" and "Coffeehouse" Project
       The Form was adapted after 
       The Colors were taken from https://www.w3schools.com/colors/colors_complementary.asp after extensive searches
       Certain errors that I was getting were sorted using https://stackoverflow.com
-
+      Google Fonts used for the website fonts. 
 
 
