@@ -149,6 +149,10 @@ h3 {
     width: 100%;
     overflow:hidden;}
 
+.form {
+    width: 24%;
+}
+
 /* footer */
 
 footer {
