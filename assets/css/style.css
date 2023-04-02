@@ -19,9 +19,17 @@ body {font-family: 'Merriweather Sans', sans-serif;
     position: relative;
 }
 
-h1, h2 {
+h1 {
     font-family: 'Merriweather Sans', sans-serif;
     color: #FEE715FF;
+}
+
+h2 {
+    font-family: 'Merriweather Sans', sans-serif;
+    text-transform:none;
+    background-color: #FEE715FF;
+    color: #101820FF;
+    text-align:justify;
 }
 
 h3 {    
@@ -31,6 +39,7 @@ h3 {
     color: #101820FF;
     text-align:justify;
 }
+
 #logo {
       float: left;
       font-size: 250%;
@@ -208,7 +217,6 @@ footer > p {
         float: left;
         margin-left: 30px;
         margin-bottom: 20px;
-        line-height: 25px;
         overflow: visible;
     }
 }
@@ -230,8 +238,9 @@ footer > p {
         text-align: center;
         padding: 0 10px;
     }
-
     }
+   
+    @media screen and (max-width: 750px) {
     #photos {
         column-count: 2;
     }
@@ -242,7 +251,8 @@ footer > p {
         overflow:visible;
         position: relative;
     }
-
+    }
+    
 @media screen and (max-width: 736x) {
 
     #photos {
@@ -260,7 +270,6 @@ footer > p {
         width: 100%;
         overflow:visible;
         position: relative;
-    }
+    }    
 }
-
 
