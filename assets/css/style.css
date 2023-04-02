@@ -9,6 +9,16 @@ body {font-family: 'Merriweather Sans', sans-serif;
 }
 
 /* title and menu */
+
+.page-header {
+    background-color: #101820FF;
+    height: auto;
+    background: center 75% / cover no-repeat;
+    height: 150px;
+    width: 100%;
+    position: relative;
+}
+
 h1, h2 {
     font-family: 'Merriweather Sans', sans-serif;
     color: #FEE715FF;
@@ -24,16 +34,14 @@ h3 {
 #logo {
       float: left;
       font-size: 250%;
-      margin-left: 20px; 
+      margin-left: 20px;
+       
 }
 
 #menu {
       font-size: 200%;
-      letter-spacing: 3px;       
-}
-
-#menu, #logo {
-      line-height: 90px;
+      letter-spacing: 3px;
+      line-height: 90px;       
 }
 
 #menu li {
@@ -75,6 +83,11 @@ h3 {
     overflow: hidden;  
 }
 
+@keyframes main-zoom {
+    from{transform: scale(1);}
+    to{transform: scale(1.1);}
+}
+
 #cover-image {
      width: 226px;
      height: 301px;
@@ -84,63 +97,6 @@ h3 {
      position:absolute;
      background-color: #FEE715FF;
      background: url('../images/IMG_9429\ 300225.jpg') no-repeat center center;
-}
-
-@keyframes main-zoom {
-    from{transform: scale(1);}
-    to{transform: scale(1.1);}
-}
-
-.text {color:#0A2B38;
-}
-
-.text-center {
-    text-align: center;
-}
-
-.section3 {
-    padding-top: 100px;
-    padding-bottom: 50px;
-    height: 300px;
-    margin-bottom: 20px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    overflow:hidden;}
-
-footer {
-    background-color: #101820FF;
-    text-align: center;
-    padding-top: 10px;
-}
-
-footer > p {
-    color:#FEE715FF;
-    text-align: right;
-}
-
-.social-networks {
-    text-align: center;}
-
-.social-networks > li {
-    display: inline;
-}
-
-.social-networks i {
-    font-size: 200%;
-    margin: 1%;
-    padding: 1%;
-}
-
-.page-header {
-    background-color: #101820FF;
-    height: auto;
-    background: center 75% / cover no-repeat;
-    height: 150px;
-    width: 100%;
-    overflow:hidden;
-    position: relative;
 }
 
 /* section 2 */
@@ -171,6 +127,44 @@ footer > p {
     color: #FEE715FF;    
 }
 
+/* section 3 */
+
+.section3 {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    height: 300px;
+    margin-bottom: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    overflow:hidden;}
+
+/* footer */
+
+footer {
+    background-color: #101820FF;
+    text-align: center;
+    padding-top: 10px;
+}
+
+footer > p {
+    color:#FEE715FF;
+    text-align: right;
+}
+
+.social-networks {
+    text-align: center;}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 200%;
+    margin: 1%;
+    padding: 1%;
+}
 
 /* gallery */
 
@@ -178,7 +172,7 @@ footer > p {
     padding-top: 100px;
     clear:both;
     line-height: 0;
-    column-count: 4;
+    column-count: 3;
     column-gap: 0;
 }
 
@@ -188,7 +182,7 @@ footer > p {
 
 /* Media queries */
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1450px) {
     #section2 {
         width: 65%;
         height: 1200px;
@@ -209,15 +203,19 @@ footer > p {
         float: left;
         padding: 0;
     }
-}
-
-@media screen and (max-width: 950px) {
     #menu {
         clear: left;
         float: left;
         margin-left: 30px;
         margin-bottom: 20px;
         line-height: 25px;
+        overflow: visible;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    #menu {
+       left: 0; 
     }
     #cover-image {
         left: 0;
@@ -235,13 +233,34 @@ footer > p {
 
     }
     #photos {
-        column-count: 3;
-    }
-
-
-@media screen and (max-width: 800px) {
-
-    #photos {
         column-count: 2;
     }
+
+    .page-header {
+        height: 50px;
+        width: 100%;
+        overflow:visible;
+        position: relative;
+    }
+
+@media screen and (max-width: 736x) {
+
+    #photos {
+        column-count: 1;
+    }
+    #menu {
+        left: 0;
+        max-width: fit-content;
+        letter-spacing: 2px;
+        line-height: 90px;   
+     }
+
+    .page-header {
+        height: 50px;
+        width: 100%;
+        overflow:visible;
+        position: relative;
+    }
 }
+
+
