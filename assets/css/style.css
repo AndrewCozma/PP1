@@ -2,24 +2,24 @@
 
 body {font-family: 'Merriweather Sans', sans-serif;
       font-weight: 300;
-      color: #0A2B38;
+      color: #FEE715FF;
       margin: 0;
       padding: 0;
       border: none;
-      background-color: #F7E0D4;
+      background-color: #101820FF;
 }
 
 /* title and menu */
 h1, h2 {
     font-family: 'Merriweather Sans', sans-serif;
-    color: #FD6B1C;
+    color: #FEE715FF;
 }
 
 h3 {    
     font-family: 'Merriweather Sans', sans-serif;
     text-transform:none;
-    background-color: #FD6B1C;
-    color: white;
+    background-color: #FEE715FF;
+    color: #101820FF;
     text-align:justify;
 }
 #logo {
@@ -45,15 +45,15 @@ h3 {
 
 #menu a {
     text-decoration: none;
-    color: inherit;
+    color: #FEE715FF;
 }
 
 #menu a:hover {
-    border-bottom: 1px solid #FD6B1C;
+    border-bottom: 1px solid #FEE715FF;
 }
 
 .selected {
-    border-bottom: 1px solid #FD6B1C;
+    border-bottom: 1px solid #FEE715FF;
 }
 
 /*section 1 */
@@ -83,7 +83,7 @@ h3 {
      bottom: 0px;
      right: 100px;
      position:absolute;
-     background-color: #FD6B1C;
+     background-color: #FEE715FF;
      background: url('../images/IMG_9429\ 300225.jpg') no-repeat center center;
 }
 
@@ -100,7 +100,7 @@ h3 {
 }
 
 footer > p {
-    color:#fd6b1c;
+    color:#FEE715FF;
     text-align: right;
 }
 
@@ -117,7 +117,7 @@ footer > p {
     overflow:hidden;}
 
 footer {
-    background-color: #0A2B38;
+    background-color: #101820FF;
     text-align: center;
     padding-top: 10px;
 }
@@ -136,7 +136,7 @@ footer {
 }
 
 .page-header {
-    background-color: #3886A4;
+    background-color: #101820FF;
     height: auto;
     background: center 75% / cover no-repeat;
     height: 150px;
@@ -169,7 +169,9 @@ footer {
 #center-text {
     width: 40%;
     height: 300px;
-    margin: 0 auto;}
+    margin: 0 auto;
+    color: #FEE715FF;    
+}
 
 
 /* gallery */
