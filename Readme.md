@@ -52,7 +52,7 @@ Pieces of code have been taken from the "Love Running" and "Coffeehouse" Project
       Loved that Zoom effect that was on the main picture so this one was also inspired from Love Running.
       The Google Maps section - inspired from the Coffeehouse project
       The Form was adapted after 
-      The Colors were taken from https://www.w3schools.com/colors/colors_complementary.asp after extensive searches
+      The Colors were taken from webflow.com.
       Certain errors that I was getting were sorted using https://stackoverflow.com
       Google Fonts used for the website fonts. 
 
