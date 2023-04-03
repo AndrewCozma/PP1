@@ -34,13 +34,10 @@ h2 {
 
 h3 {    
     font-family: 'Merriweather Sans', sans-serif;
-    text-transform:none;
-    background-color: #FEE715FF;
-    color: #101820FF;
-    text-align:justify;
+    color: #FEE715FF;
 }
 
-#logo {
+.logo {
       float: left;
       font-size: 250%;
       margin-left: 20px;
@@ -105,7 +102,7 @@ h3 {
      right: 100px;
      position:absolute;
      background-color: #FEE715FF;
-     background: url('../images/IMG_9429\ 300225.jpg') no-repeat center center;
+     background: url('../images/IMG_9429_300225.jpg') no-repeat center center;
 }
 
 /* section 2 */
@@ -116,13 +113,13 @@ h3 {
 }
 
 #osc1 {
-        background: url('../images/IMG_0343\ 400400.jpg') no-repeat center center;
+        background: url('../images/IMG_0343_400400.jpg') no-repeat center center;
         height: 300px;
         width: 25%;
         float: left;
 }
 #osc2 {
-    background: url('../images/IMG_8897\ 400400.jpg') no-repeat center center;
+    background: url('../images/IMG_8897_400400.jpg') no-repeat center center;
     width: 25%;
     height: 300px;
     float: right;
@@ -257,7 +254,7 @@ footer > p {
     }
     }
     
-@media screen and (max-width: 736x) {
+@media screen and (max-width: 736px) {
 
     #photos {
         column-count: 1;
@@ -277,3 +274,12 @@ footer > p {
     }    
 }
 
+input[type=submit] {
+    background-color: #FEE715FF;
+    border: none;
+    color: #101820FF;
+    padding: 8px 16px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
