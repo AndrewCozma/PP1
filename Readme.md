@@ -11,6 +11,7 @@ Navigation - at the top right of the corner we can see the name of the business,
            - the rest of the navigation links that are to right will take you to the Gallery and Contact pages; 
            - the colors picked are complementary so that they will look good and appealing for the users;
            - the navigation is clear and user friendly giving all the necessary details for booking a dog walk;
+           - I added an anumated bouncing fontawesome icon next to the contact so that it will attract the user's attention and stimulate to contact the company;
 
 The Header - is a picture of one of the places where the dog will be taken for a walk (The Curragh)
 The Body   - provides details about booking slots;

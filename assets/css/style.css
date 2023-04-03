@@ -93,7 +93,7 @@ h4 {
     object-fit: contain;
     animation-name: main-zoom;
     animation-duration: 10s;
-    animation-fill-mode: forwards;
+    animation-fill-mode:both;
     overflow: hidden;  
 }
 
