@@ -92,7 +92,7 @@ h4 {
     background: url('../images/Main_IMG_7411.jpg') no-repeat center;
     object-fit: contain;
     animation-name: main-zoom;
-    animation-duration: 10s;
+    animation-duration: 20s;
     animation-fill-mode:both;
     overflow: hidden;  
 }
