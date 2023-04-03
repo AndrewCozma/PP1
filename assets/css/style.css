@@ -37,6 +37,14 @@ h3 {
     color: #FEE715FF;
 }
 
+h4 {
+    font-family: 'Merriweather Sans', sans-serif;
+    text-transform:none;
+    background-color: #FEE715FF;
+    color: #101820FF;
+    text-align:justify;
+}
+
 .logo {
       float: left;
       font-size: 250%;
@@ -109,25 +117,25 @@ h3 {
 
 #section2 {
     height: 200px;
-    padding-top: 100px;
+    padding-top: 50px;
 }
 
 #osc1 {
         background: url('../images/IMG_0343_400400.jpg') no-repeat center center;
         height: 300px;
-        width: 25%;
+        width: 33%;
         float: left;
 }
 #osc2 {
     background: url('../images/IMG_8897_400400.jpg') no-repeat center center;
-    width: 25%;
+    width: 33%;
     height: 300px;
     float: right;
     
 }
 
 #center-text {
-    width: 52%;
+    width: 33%;
     height: 300px;
     margin: 0 auto;
     color: #FEE715FF;  
