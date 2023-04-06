@@ -32,7 +32,7 @@ The form is also working as intended and it is taking you to a different page.
 
 Validator Testing:
 
-HTML - 
+HTML - Passed the W3C HTML Validation Service with no errors. 
 
 CSS - Passed the W3C CSS Validation Service with no errors. 
 
@@ -52,9 +52,10 @@ Pieces of code have been taken from the "Love Running" and "Coffeehouse" Project
       Navigation and Header - inspired from the Love Running project
       Loved that Zoom effect that was on the main picture so this one was also inspired from Love Running.
       The Google Maps section - inspired from the Coffeehouse project
-      The Form was adapted after 
+      The Form was adapted after the Code Institute Training. 
       The Colors were taken from webflow.com.
       Certain errors that I was getting were sorted using https://stackoverflow.com
       Google Fonts used for the website fonts. 
+      Code for the Icons for the menu have been taken from Fontawesome
 
 

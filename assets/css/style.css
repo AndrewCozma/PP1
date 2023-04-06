@@ -20,12 +20,10 @@ body {font-family: 'Merriweather Sans', sans-serif;
 }
 
 h1 {
-    font-family: 'Merriweather Sans', sans-serif;
     color: #FEE715FF;
 }
 
 h2 {
-    font-family: 'Merriweather Sans', sans-serif;
     text-transform:none;
     background-color: #FEE715FF;
     color: #101820FF;
@@ -33,12 +31,12 @@ h2 {
 }
 
 h3 {    
-    font-family: 'Merriweather Sans', sans-serif;
     color: #FEE715FF;
+    margin-left: 25px;
+    font-size: 2em;
 }
 
 h4 {
-    font-family: 'Merriweather Sans', sans-serif;
     text-transform:none;
     background-color: #FEE715FF;
     color: #101820FF;
@@ -156,6 +154,7 @@ h4 {
 
 .form {
     width: 24%;
+    margin-left: 25px;
 }
 
 /* footer */
